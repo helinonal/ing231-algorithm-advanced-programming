@@ -1,0 +1,9 @@
+#Alıştırma bir kağıdının üçüncü sorusu
+
+import math
+sum = 0
+for i in range (0,1001):
+    sum = sum + ( 1 / math.factorial(i))
+
+print("e =", sum)
+    
