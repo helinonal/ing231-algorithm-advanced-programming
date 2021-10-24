@@ -1,0 +1,16 @@
+#alıştırma bir kağıdının beşinci sorusu
+
+import math
+
+a_list = []
+
+for i in range (1000,10001):
+    a =str(i)
+    b =a[0]
+    c =a[3]
+    d =a[1]
+    e =a[2]
+    if int(c) == int(b)and int(e) == int(d):
+         a_list.append(i)
+
+print(a_list)
