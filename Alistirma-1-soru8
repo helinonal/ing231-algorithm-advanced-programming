@@ -1,0 +1,23 @@
+#alıştırma bir kağıdının sekizinci sorusu
+
+import math
+
+a_list = []
+
+for i in range (100,1000,2):
+    a =str(i)
+    b =a[0]
+    c =a[1]
+    d =a[2]
+    
+    if int(b)== int(c):
+        a_list.append(i)
+    elif int(b) == int(d):
+        a_list.append(i)
+    elif int(c) == int(d):
+        a_list.append(i)
+    elif int(b)== int(c) == int(d):
+        a_list.append(i)
+
+sonuc= len(a_list)
+print(sonuc)
