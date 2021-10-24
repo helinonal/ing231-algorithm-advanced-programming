@@ -1,0 +1,16 @@
+#alıştırma bir kağıdının altıncı sorusu
+
+import math
+
+a_list = []
+
+for i in range (1000,10001):
+    a =str(i)
+    b =a[0]
+    c =a[3]
+    
+    if int(c) <= int(b):
+         a_list.append(i)
+
+sayi= len(a_list)
+print(sayi)
