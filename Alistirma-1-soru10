@@ -1,0 +1,19 @@
+#alıştırma bir kağıdının onuncu sorusu
+
+import math
+
+a_list = []
+
+for i in range (10000,100001):
+    a =str(i)
+    b =a[0]
+    c =a[1]
+    d =a[3]
+    e =a[4]
+    
+    if int(b)== int(d) and int(c) == int(e):
+        a_list.append(i)
+    
+
+sonuc= len(a_list)
+print(sonuc)
