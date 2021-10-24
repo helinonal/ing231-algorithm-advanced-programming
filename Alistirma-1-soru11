@@ -1,0 +1,20 @@
+# from sympy kısmı hata veriyor, aynı zamanda en büyük kalanı veren x kısmını doğru mu düşündüm 
+#onu da bilemedim
+
+import math
+from symPy import Symbol
+
+x = symbols('x')
+a = 125 % x
+b = 200 % x
+c = 350 % x
+
+a_list = []
+
+if a==b==c:
+    a_list.append
+
+a_list.sort()
+
+print(a_list[1])
+
