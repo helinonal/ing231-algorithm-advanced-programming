@@ -1,0 +1,14 @@
+#Alıştırma bir kağıdının dördüncü sorusu
+
+import math
+
+a_list = []
+
+for i in range (100,1000):
+    a =str(i)
+    b =a[0]
+    c =a[2]
+    if int(c) == int(b):
+        a_list.append(i)
+
+print(a_list)
