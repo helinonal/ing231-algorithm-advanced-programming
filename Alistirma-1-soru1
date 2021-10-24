@@ -1,0 +1,8 @@
+#Burada alıştırma 1 kağıdının birinci sorusunu yaptım.
+
+sum=0
+for i in range (19,205,3):
+    sum=sum+i
+
+print(sum)
+    
