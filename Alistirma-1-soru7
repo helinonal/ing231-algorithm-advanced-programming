@@ -1,0 +1,16 @@
+#alıştırma bir kağıdının yedinci sorusu
+
+import math
+
+a_list = []
+
+for i in range (100,1001):
+    a =str(i)
+    b =a[0]
+    c =a[1]
+    d =a[2]
+    
+    if int(b)+int(c)==int(d):
+         a_list.append(i)
+
+print(a_list)
