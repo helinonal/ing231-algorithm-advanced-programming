@@ -1,0 +1,8 @@
+#bunu mantık olarak anladıysam da nasıl koda yansıtacağım konusunda 
+#bir tıkanma yaşadım. Başlayabilmek için arkadaşlarımın koduna baktım biraz.
+
+for i in range(1000,2005):
+    bdate = str(i)
+    toplam = int(bdate[0])+int(bdate[1])+int(bdate[2])+int(bdate[3])
+    if 2005 - int(bdate)== toplam :
+        print(bdate)
