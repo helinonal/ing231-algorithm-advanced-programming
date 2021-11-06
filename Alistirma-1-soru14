@@ -1,0 +1,18 @@
+#kodum hata vermiyor ama bir output da vermiyor :(
+
+import random
+
+a = random.randint(1,121213)
+b = random.randint(1,121213)
+liste = []
+
+while a*b == 121212:
+    for i in range (1,10000):
+        c = abs(a-b)
+        liste.append(c)
+    d = min(liste)
+    print(d)
+    
+  
+
+
