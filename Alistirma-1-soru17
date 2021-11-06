@@ -1,0 +1,16 @@
+#bu kodum düzgün çalışıyor 
+
+x = input('lütfen 3 ya da 4 basamaklı bir sayı giriniz: ')
+
+if len(x) == 3:
+    if x[0] == x[2]:
+        print('bu palindromik bir sayıdır')
+    else:
+        print('bu palindromik bir sayı değildir.')
+elif len(x) == 4:
+    if x[0] == x[3] and x[1]==x[2]:
+        print('bu palindromik bir sayıdır')
+    else:
+        print('bu palindromik bir sayı değildir.')
+else:
+    print('lütfen 3 ya da 4 basamaklı bir sayı giriniz: ')
