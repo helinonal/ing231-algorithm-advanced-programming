@@ -1,0 +1,11 @@
+# düşündüğüm kod olmayınca biraz internetten araştırdım ama bunu da çalıştırınca
+# asla bitmeyen squeezed test kutucukları ard arda sıralanmaya başladı
+
+liste = []
+
+for i in range(10000,100000):
+    for k in range(2, i//2):
+        if (i%k) != 0:
+            liste.append(i)
+
+    print(liste)
