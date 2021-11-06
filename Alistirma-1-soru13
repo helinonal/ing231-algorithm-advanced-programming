@@ -1,12 +1,10 @@
-#soruyu anlayıp doğru bir kod yazdığımı düşündüm ama 
-#kodum çalışırken bir hata vermemesine rağmen hiçbir çıktı alamıyorum
+#13.soru
 
 for i in range(10,100):
-    a = str(i)
     for k in range(10,100):
-            b = str(k)
-    if a+b == 11*(int(a)+int(b)):
-        print(a)
-        print(b)
-   
+        if int(str(i)+str(k))==11*(i+k):
+            print(i)
+            print(k)
+  
+
 
