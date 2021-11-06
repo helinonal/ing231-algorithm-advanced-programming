@@ -1,0 +1,11 @@
+# çalışıyor ama birden fazla output olarak veriyor anlamadım neden
+
+x = input('bir sayı giriniz: ')
+a =int(x)
+
+for i in range(2,a):
+    if (a%i) == 0:
+        print('bu bir asal sayı değildir.')
+    else:
+        print('bu bir asal sayıdır.')
+        
