@@ -1,16 +1,22 @@
-#Alıştırma bir kağıdının dokuzuncu sorusu
-#ben bu soruyu yapamadım, kodum çalışmıyor o yüzden hatalarımı hocaya sorabilmek için yine de ekliyorum kodumu aşağıya
+#SORUYU YENİDEN ÇÖZMEYİ DENEDİM O YÜZDEN ESKİ KODUMU SİLİP YENİSİNİ YÜKLÜYORUM.
 
-import math
+liste = []
 
-for i in range (1,1000):
-    a =str(i)
-    sum = 0
-    n=len(a)
-    for num in int(a):
-        sum=sum+num
-        if sum <9:
-            print(i, end="")
+for i in range(1,1000):
+    a = str(i)
+    
+    if len(a) == 1 and i<9:
+        liste.append(i)
+
+    elif len(a) == 2 and int(a[0])+ int(a[1])<9:
+        liste.append(i)
+
+    elif len(a) == 3 and int(a[0])+int(a[1])+int(a[2])<9:
+        liste.append(i)
+
+print(liste, end="")
+        
+        
 
         
     
